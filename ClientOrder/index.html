@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript_main.js"></script>
+    <title>Webstite Name</title>
+</head>
+
+<body>
+    <div id="top"></div>
+    <div id="navbar" class="navbar-fixed-top">
+        <ul>
+            <li><a href="#top" name="normal" id="navLink1">About</a>
+                <div name="translatedText"><a href="#top">translated</a></div>
+            </li>
+            <li><a href="#skills" name="normal" id="navLink2">Skills</a>
+                <div name="translatedText"><a href="#skills">translated</a></div>
+            </li>
+            <li><a href="#media" name="normal" id="navLink3">Media/Comp</a>
+                <div name="translatedText"><a href="#media">translated</a></div>
+            </li>
+            <li><a href="#references" name="normal" id="navLink4">References</a>
+                <div name="translatedText"><a href="#references">translated</a></div>
+            </li>
+            <li><a href="#contact" name="normal" id="navLink5">Contact</a>
+                <div name="translatedText"><a href="#contact">translated</a></div>
+            </li>
+        </ul>
+    </div>
+    <div id="translateMenu">
+        <select name="translate" id="translate">
+            <option value="1">English</option>
+            <option value="2">Other</option>
+        </select>
+    </div>
+    <div id="showcase">
+        <img src="headshot.png" alt="a placeholder image">
+        <h1>Name Here</h1>
+        <p name="normal" id="showcaseParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+            elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend. Suspendisse eget maximus
+            felis, a lacinia risus.</p>
+        <div name="translatedText">
+            <p>Translated</p>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="section-title" name="normal" id="skillsSectionMainTitle">My Skills</h2>
+        <div name="translatedText">
+            <h2 class="section-title">Translated</h2>
+        </div>
+        <div id="skills-text">
+            <h3 class="green-title" name="normal" id="greenTitleSkills">Title for skills section</h3>
+            <div name="translatedText">
+                <h3 class="green-title">Translated</h3>
+            </div>
+            <p name="normal" id="skillsParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+                elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend. Suspendisse eget
+                maximus felis, a lacinia risus.</p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <div id="hiddenSkills">
+                <p name="normal" id="hiddenSkillsParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.
+                    Suspendisse eget maximus felis, a lacinia risus.</p>
+                <div name="translatedText">
+                    <p>Translated</p>
+                </div>
+            </div>
+            <div id="skillsButton">
+                <input type="button" onclick="location.href = 'index.html'" id="showSkillsButton" value="Show More"
+                    name="normal" class="buttonStyle"></input>
+                <div name="translatedText"><input type="button" onclick="location.href = 'index.html'"
+                        id="showSkillsButton1" class="buttonStyle" value="Translated All"></input></div>
+            </div>
+        </div>
+        <div id="skills-chart">
+            <h3 class="skill-title" name="normal" id="skill1">Skill 1</h3>
+            <div name="translatedText">
+                <h3 class="skill-title">Translated</h3>
+            </div>
+            <div id="skillsImage2">
+                <img src="skillBars/bar80%.svg" alt="a placeholder image">
+            </div>
+            <h3 class="skill-title" name="normal" id="skill2">Skill 2</h3>
+            <div name="translatedText">
+                <h3 class="skill-title">Translated</h3>
+            </div>
+            <div id="skillsImage2">
+                <img src="skillBars/bar90%.svg" alt="a placeholder image">
+            </div>
+            <h3 class="skill-title" name="normal" id="skill3">Skill 3</h3>
+            <div name="translatedText">
+                <h3 class="skill-title">Translated</h3>
+            </div>
+            <div id="skillsImage3">
+                <img src="skillBars/bar100%.svg" alt="a placeholder image">
+            </div>
+        </div>
+    </div>
+
+    <div id="media">
+        <h2 class="section-title" name="normal" id="mediaSectionMainTitle">Media Appearences & Competitions</h2>
+        <div name="translatedText">
+            <h2 class="section-title">Translated</h2>
+        </div>
+        <div id="media-col1">
+            <img src="placeholder.jpg" alt="">
+            <h3 name="normal" id="eventTitle1">Event Title</h3>
+            <div name="translatedText">
+                <h3>Translated</h3>
+            </div>
+            <p name="normal" id="eventParagraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+                elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <div id="hiddenEvents1">
+                <img src="placeholder.jpg" alt="">
+                <h3 name="normal" id="eventTitle2">Event Title</h3>
+                <div name="translatedText">
+                    <h3>Translated</h3>
+                </div>
+                <p name="normal" id="eventParagraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+                <div name="translatedText">
+                    <p>Translated</p>
+                </div>
+                <img src="placeholder.jpg" alt="">
+                <h3 name="normal" id="eventTitle3">Event Title</h3>
+                <div name="translatedText">
+                    <h3>Translated</h3>
+                </div>
+                <p name="normal" id="eventParagraph3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+                <div name="translatedText">
+                    <p>Translated</p>
+                </div>
+            </div>
+        </div>
+        <div id="media-col2">
+            <img src="placeholder.jpg" alt="">
+            <h3 name="normal" id="eventTitle4">Event Title</h3>
+            <div name="translatedText">
+                <h3>Translated</h3>
+            </div>
+            <p name="normal" id="eventParagraph4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+                elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <div id="hiddenEvents2">
+                <img src="placeholder.jpg" alt="">
+                <h3 name="normal" id="eventTitle5">Event Title</h3>
+                <div name="translatedText">
+                    <h3>Translated</h3>
+                </div>
+                <p name="normal" id="eventParagraph5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+                <div name="translatedText">
+                    <p>Translated</p>
+                </div>
+            </div>
+        </div>
+        <div id="media-col3">
+            <img src="placeholder.jpg" alt="">
+            <h3 name="normal" id="eventTitle6">Event Title</h3>
+            <div name="translatedText">
+                <h3>Translated</h3>
+            </div>
+            <p name="normal" id="eventParagraph6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et
+                elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <div id="hiddenEvents3">
+                <img src="placeholder.jpg" alt="">
+                <h3 name="normal" id="eventTitle7">Event Title</h3>
+                <div name="translatedText">
+                    <h3>Translated</h3>
+                </div>
+                <p name="normal" id="eventParagraph7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.</p>
+                <div name="translatedText">
+                    <p>Translated</p>
+                </div>
+            </div>
+        </div>
+        <div id="mediaButton">
+            <input type="button" onclick="myFunction()" id="showAllButton" value="Show All" name="normal"
+                class="buttonStyle"></input>
+            <div name="translatedText"><input type="button" onclick="myFunction()" id="showAllButton1"
+                    value="Translated All" class="buttonStyle"></input></div>
+        </div>
+    </div>
+
+    <div id="references">
+        <h2 name="normal" id="referencesMainTitle">References</h2>
+        <div name="translatedText">
+            <h2>Translated</h2>
+        </div>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <h3 name="normal" id="referenceName1">Name1</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <h3 name="normal" id="referenceName2">Name2</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <h3 name="normal" id="referenceName3">Name3</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <a href="www.portfolio123.com/references/showmore">
+                    <h3 name="normal" id="referenceName4">Name4</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph5">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <h3 name="normal" id="referenceName5">Name5</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <p name="normal" id="referenceParagraph6">"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend."
+                    </p>
+                    <div name="translatedText">
+                        <p>Translated</p>
+                    </div>
+                    <h3 name="normal" id="referenceName6">Name6</h3>
+                    <div name="translatedText">
+                        <h3>Translated</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2 class="section-title" name="normal" id="contactMainTitle">Contact Me</h2>
+        <div name="translatedText">
+            <h2 class="section-title">Translated</h2>
+        </div>
+        <div id="contact-text">
+            <h3 class="green-title" name="normal" id="contactGreenTitle">Title for contact section</h3>
+            <div name="translatedText">
+                <h3 class="green-title">Translated</h3>
+            </div>
+            <p name="normal" id="contactMainParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum et elit mollis ipsum commodo feugiat. Aenean sed risus at libero ultrices eleifend.
+                Suspendisse eget maximus felis, a lacinia risus.</p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <h3 class="contact-info" name="normal" id="contactInfoTitle1">Name</h3>
+            <div name="translatedText">
+                <h3 class="contact-info">Translated</h3>
+            </div>
+            <p name="normal" id="contactParagraph1">Lorem ipsum </p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <h3 class="contact-info" name="normal" id="contactInfoTitle2">Name</h3>
+            <div name="translatedText">
+                <h3 class="contact-info">Translated</h3>
+            </div>
+            <p name="normal" id="contactParagraph2">Lorem ipsum </p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+            <h3 class="contact-info" name="normal" id="contactInfoTitle3">Name</h3>
+            <div name="translatedText">
+                <h3 class="contact-info">Translated</h3>
+            </div>
+            <p name="normal" id="contactParagraph3">Lorem ipsum </p>
+            <div name="translatedText">
+                <p>Translated</p>
+            </div>
+        </div>
+        <div id="contact-form">
+            <form action="mailto:youraddr@domain.tld" method="GET">
+                <label for="Name" name="normal" id="formNameLabel">Name</label>
+                <div name="translatedText"><label for="Name" id="translatedFormNameLabel">Translated</label></div>
+                <br>
+                <input type="text" name="Name" id="name"><br>
+                <label for="Email" name="normal" id="formEmailLabel">Email</label>
+                <div name="translatedText"><label for="Email">Translated</label></div>
+                <br>
+                <input type="email" name="Email" id="email"><br>
+                <label for="Name" name="normal" id="formMessageLabel">Message</label>
+                <div name="translatedText"><label for="Message">Translated</label></div>
+                <br>
+                <textarea name="Message" id="formMessage" cols="30" rows="10"></textarea>
+                <div id="submitButtonContainer">
+                    <input type="submit" name="normal" id="submitButton" class="buttonStyle">
+                    <div name="translatedText"><input type="submit" value="Translated" class="buttonStyle"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script>
+    var menu = document.getElementById("translate");
+    menu.addEventListener("change", translateText);
+    var translatedElements = document.getElementsByName("translatedText");
+    var normalElements = document.getElementsByName("normal");
+    function translateText() {
+        if (menu.value == "2") {
+            for (i = 0; i < translatedElements.length; i++) {
+                translatedElements[i].style.display = "inline";
+            }
+            for (i = 0; i < normalElements.length; i++) {
+                normalElements[i].style.display = "none";
+            }
+            translated = true;
+        } else if (menu.value == "1") {
+            for (i = 0; i < translatedElements.length; i++) {
+                translatedElements[i].style.display = "none";
+            }
+            document.getElementById("navLink1").style.display = "inline";
+            document.getElementById("navLink2").style.display = "inline";
+            document.getElementById("navLink3").style.display = "inline";
+            document.getElementById("navLink4").style.display = "inline";
+            document.getElementById("navLink5").style.display = "inline";
+            document.getElementById("showcaseParagraph").style.display = "block";
+            document.getElementById("skillsSectionMainTitle").style.display = "block";
+            document.getElementById("greenTitleSkills").style.display = "block";
+            document.getElementById("skillsParagraph").style.display = "block";
+            document.getElementById("hiddenSkillsParagraph").style.display = "block";
+            document.getElementById("skill1").style.display = "block";
+            document.getElementById("skill2").style.display = "block";
+            document.getElementById("skill3").style.display = "block";
+            document.getElementById("mediaSectionMainTitle").style.display = "block";
+            document.getElementById("eventTitle1").style.display = "block";
+            document.getElementById("eventParagraph1").style.display = "block";
+            document.getElementById("eventTitle2").style.display = "block";
+            document.getElementById("eventParagraph2").style.display = "block";
+            document.getElementById("eventTitle3").style.display = "block";
+            document.getElementById("eventParagraph3").style.display = "block";
+            document.getElementById("eventTitle4").style.display = "block";
+            document.getElementById("eventParagraph4").style.display = "block";
+            document.getElementById("eventTitle5").style.display = "block";
+            document.getElementById("eventParagraph5").style.display = "block";
+            document.getElementById("eventTitle6").style.display = "block";
+            document.getElementById("eventParagraph6").style.display = "block";
+            document.getElementById("eventTitle7").style.display = "block";
+            document.getElementById("eventParagraph7").style.display = "block";
+            document.getElementById("showAllButton").style.display = "inline";
+            document.getElementById("referencesMainTitle").style.display = "block";
+            document.getElementById("referenceName1").style.display = "block";
+            document.getElementById("referenceParagraph1").style.display = "block";
+            document.getElementById("referenceName2").style.display = "block";
+            document.getElementById("referenceParagraph2").style.display = "block";
+            document.getElementById("referenceName3").style.display = "block";
+            document.getElementById("referenceParagraph3").style.display = "block";
+            document.getElementById("referenceName4").style.display = "block";
+            document.getElementById("referenceParagraph4").style.display = "block";
+            document.getElementById("referenceName5").style.display = "block";
+            document.getElementById("referenceParagraph5").style.display = "block";
+            document.getElementById("referenceName6").style.display = "block";
+            document.getElementById("referenceParagraph6").style.display = "block";
+            document.getElementById("contactMainTitle").style.display = "block";
+            document.getElementById("contactGreenTitle").style.display = "block";
+            document.getElementById("contactMainParagraph").style.display = "block";
+            document.getElementById("contactInfoTitle1").style.display = "block";
+            document.getElementById("contactParagraph1").style.display = "block";
+            document.getElementById("contactInfoTitle2").style.display = "block";
+            document.getElementById("contactParagraph2").style.display = "block";
+            document.getElementById("contactInfoTitle3").style.display = "block";
+            document.getElementById("contactParagraph3").style.display = "block";
+            document.getElementById("formNameLabel").style.display = "inline";
+            document.getElementById("formEmailLabel").style.display = "inline";
+            document.getElementById("formMessageLabel").style.display = "inline";
+            document.getElementById("submitButton").style.display = "inline";
+            document.getElementById("showSkillsButton").style.display = "block";
+            translated = false;
+        }
+    }
+</script>
+
+</html>
